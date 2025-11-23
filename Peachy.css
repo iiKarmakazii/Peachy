@@ -241,7 +241,7 @@ body {
 
 
 .breadcrumb::after {
-        content: "CSS Editted(#230272) Template(#106445)";
+        content: "CSS Edited(#230272) Template(#106445)";
         color: #fff;
         position: absolute;
         right: 13%; /* (This may need adjusting) */
