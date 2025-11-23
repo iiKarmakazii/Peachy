@@ -1013,6 +1013,8 @@ a:hover {
 
 .smallbox {
 	float: left;
+    position: relative;
+    top: -50px;
 	background: #af3737ba;
 	color: #ffc6c6;
 	padding: 10px;
@@ -1032,7 +1034,9 @@ a:hover {
 
 
 .mediumbox {
-	float: left;
+	float: none;
+    position: relative;
+    top: -50px;
 	background: #af3737ba;
 	color: #ffc6c6;
 	padding: 10px;
@@ -1042,9 +1046,14 @@ a:hover {
 	height: 150px;
 	width: 45%;
 	overflow: auto
+        
 }
 
-
+.scrollSection {
+    display: flex;
+    justify-content: center;
+    padding: 0 !important;
+}
 
 
 
@@ -1386,7 +1395,10 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 
 
 div.cave-grid>img /* Pregnant Lionesses */ {
-	content: url('https://iili.io/fFuCWo7.jpg') !important;
+	content: url('https://media.discordapp.net/attachments/1441884159772721222/1441940773322096781/3f4be2007164be4f7371401d5a5b45c7.jpg?ex=69239f7e&is=69224dfe&hm=7a69db54b16e334fe0b10c926912153a9260d3078ae1269bf541a34bbb6f881f&=&format=webp&width=1372&height=1662') !important;
+    height: 200px;
+    object-fit: cover;
+    
 
 }
 
@@ -1398,11 +1410,15 @@ div.cave-grid>img /* Pregnant Lionesses */ {
 
 
 a[href$="497720"]>div.cave-grid>img {
-	content: url('https://iili.io/f2mXYbI.jpg') !important
+	content: url('https://iili.io/f2mXYbI.jpg') !important;
+        height: 200px;
+    object-fit: cover;
 }
 
 a[href$="488530"]>div.cave-grid>img {
 	content: url('https://iili.io/f3hk7QS.jpg') !important;
+        height: 200px;
+    object-fit: cover;
 }
 
 
@@ -1412,7 +1428,9 @@ a[href$="488530"]>div.cave-grid>img {
 
 
 a[href$="lionoverview.php?id=547972"]>div.cave-grid>img /* Pride Overview */ {
-	content: url('https://iili.io/f3OoFSf.jpg') !important
+	content: url('https://iili.io/f3OoFSf.jpg') !important;
+        height: 200px;
+    object-fit: cover;
 }
 
 
@@ -1423,7 +1441,9 @@ a[href$="lionoverview.php?id=547972"]>div.cave-grid>img /* Pride Overview */ {
 
 
 a[href$="unsorted.php?id=547972"]>div.cave-grid>img /* Unsorted */ {
-	content: url('https://iili.io/f3awlIV.jpg') !important
+	content: url('https://iili.io/f3awlIV.jpg') !important;
+        height: 200px;
+    object-fit: cover;
 }
 
 
@@ -1498,7 +1518,3 @@ padding-right: 100%;
 max-height: 150px;
 border-radius: 10px !important;
 }
-
-
-
-
